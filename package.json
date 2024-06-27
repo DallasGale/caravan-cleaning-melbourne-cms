@@ -15,10 +15,18 @@
     "sanity"
   ],
   "dependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@sanity/base": "^2.36.2",
+    "@sanity/client": "^6.20.1",
+    "@sanity/desk-tool": "^2.36.2",
     "@sanity/vision": "^3.48.0",
+    "client": "link:part:@sanity/base/client",
+    "initial-value-template-builder": "link:@sanity/base/initial-value-template-builder",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sanity": "^3.48.0",
+    "sanity-plugin-vercel-deploy": "^3.3.4",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
