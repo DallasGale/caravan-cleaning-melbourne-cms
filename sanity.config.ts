@@ -1,5 +1,6 @@
 import {defineConfig} from 'sanity'
 import {structureTool} from 'sanity/structure'
+import {presentationTool} from 'sanity/presentation'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
 import {vercelDeployTool} from 'sanity-plugin-vercel-deploy'
@@ -29,6 +30,13 @@ export default defineConfig({
     }),
     visionTool(),
     vercelDeployTool(),
+    presentationTool({
+      previewUrl: {
+        draftMode: {
+          enable: 'https://caravan-cleaning-melbourne.vercel.app/api/draft',
+        },
+      },
+    }),
   ],
 
   schema: {

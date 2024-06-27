@@ -5,6 +5,7 @@ export default {
   fields: [
     {name: 'title', title: 'Title', type: 'string'},
     {name: 'subTitle', title: 'Sub-Title', type: 'richTextContent'},
+    {name: 'backgroundImage', title: 'Background Image', type: 'image'},
     {
       name: 'cards',
       title: 'Cards',
@@ -12,6 +13,7 @@ export default {
       of: [{type: 'card'}],
       validation: (Rule: any) => Rule.max(4),
     },
-    {name: 'cta', title: 'Call To Action', type: 'primaryCta'},
+    {name: 'primaryCta', title: 'Primary CTA', type: 'primaryCta'},
+    {name: 'secondaryCta', title: 'Seconary CTA', type: 'secondaryCta'},
   ],
 }
