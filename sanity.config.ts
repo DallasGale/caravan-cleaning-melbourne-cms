@@ -33,7 +33,7 @@ export default defineConfig({
     presentationTool({
       previewUrl: {
         draftMode: {
-          enable: 'https://caravan-cleaning-melbourne.vercel.app/api/draft',
+          enable: 'https://localhost:3000/api/draft',
         },
       },
     }),
