@@ -5,7 +5,8 @@ export default {
   fields: [
     {name: 'title', title: 'Title', type: 'string'},
     {name: 'subTitle', title: 'Sub-Title', type: 'richTextContent'},
-    {name: 'backgroundImage', title: 'Background Image', type: 'image'},
+    {name: 'logosHeading', title: 'Logos Heading', type: 'string'},
+    {name: 'logos', title: 'Logos', type: 'array', of: [{type: 'logo'}]},
     {
       name: 'cards',
       title: 'Cards',
@@ -15,5 +16,6 @@ export default {
     },
     {name: 'primaryCta', title: 'Primary CTA', type: 'primaryCta'},
     {name: 'secondaryCta', title: 'Seconary CTA', type: 'secondaryCta'},
+    {name: 'backgroundImage', title: 'Background Image', type: 'image'},
   ],
 }
