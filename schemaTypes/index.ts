@@ -1,3 +1,7 @@
+import list from './customTypes/list'
+import items from './customTypes/items'
+import navItem from './customTypes/navItem'
+import navigation from './navigation'
 import homepage from './homepage'
 import gridFeature from './sections/gridFeature'
 import serviceFeature from './sections/serviceFeture'
@@ -9,6 +13,10 @@ import homeHero from './sections/homeHero'
 import logo from './customTypes/logo'
 
 export const schemaTypes = [
+  list,
+  items,
+  navItem,
+  navigation,
   primaryCta,
   secondaryCta,
   richTextContent,
