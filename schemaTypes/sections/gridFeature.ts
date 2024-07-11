@@ -3,8 +3,10 @@ export default {
   title: 'Grid Feature',
   type: 'object',
   fields: [
+    {name: 'id', title: 'Id', type: 'string'},
     {name: 'title', title: 'Title', type: 'string'},
-    {name: 'subTitle', title: 'Sub-Title', type: 'richTextContent'},
+    {name: 'subTitle', title: 'Sub-Title', type: 'string'},
+    {name: 'details', title: 'Details', type: 'richTextContent'},
     {name: 'logosHeading', title: 'Logos Heading', type: 'string'},
     {name: 'logos', title: 'Logos', type: 'array', of: [{type: 'logo'}]},
     {

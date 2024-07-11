@@ -14,10 +14,14 @@ const createHomepageStructure = (S) =>
         .child(S.document().schemaType('homepage').documentId('homepage')),
 
       S.listItem()
+        .title('About Page')
+        .child(S.document().schemaType('aboutPage').documentId('aboutPage')),
+
+      S.listItem()
         .title('Main Navigation')
         .child(S.document().schemaType('navigation').documentId('navigation')),
       ...S.documentTypeListItems().filter(
-        (listItem) => !['homepage', 'navigation'].includes(listItem.getId()),
+        (listItem) => !['homepage', 'aboutPage', 'navigation'].includes(listItem.getId()),
       ),
     ])
 
