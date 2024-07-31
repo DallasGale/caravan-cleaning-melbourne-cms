@@ -7,5 +7,6 @@ export default {
     {name: 'subHeading', title: 'Sub-Heading', type: 'richTextContent'},
     {name: 'primaryCta', title: 'Primary Cta', type: 'primaryCta'},
     {name: 'backgroundImage', title: 'Background Image', type: 'image'},
+    {name: 'mobileBackgroundImage', title: 'Mobile Background Image', type: 'image'},
   ],
 }

@@ -23,16 +23,13 @@ export const imageCarousel = defineType({
     }),
     defineField({
       type: 'array',
-      name: 'videos',
+      name: 'youTubeId',
+      title: 'YouTube Id',
       of: [
         defineArrayMember({
-          type: 'file',
-          fields: [
-            {
-              type: 'string',
-              name: 'caption',
-            },
-          ],
+          type: 'string',
+          name: 'id',
+          title: 'Id',
         }),
       ],
     }),

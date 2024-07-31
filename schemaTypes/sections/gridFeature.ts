@@ -19,5 +19,6 @@ export default {
     {name: 'primaryCta', title: 'Primary CTA', type: 'primaryCta'},
     {name: 'secondaryCta', title: 'Seconary CTA', type: 'secondaryCta'},
     {name: 'backgroundImage', title: 'Background Image', type: 'image'},
+    {name: 'mobileBackgroundImage', title: 'Mobile Background Image', type: 'image'},
   ],
 }
