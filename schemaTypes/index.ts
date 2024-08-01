@@ -17,8 +17,12 @@ import logo from './customTypes/logo'
 import {comparisonCarousel} from './customTypes/comparisonCarousel'
 import {imageCarousel} from './customTypes/imageCarousel'
 import {mediaCarousel} from './customTypes/mediaCarousel'
+import testimonialFeature from './sections/testimonials'
+import testimonial from './customTypes/testimonial'
 
 export const schemaTypes = [
+  testimonial,
+  testimonialFeature,
   comparisonCarousel,
   imageCarousel,
   mediaCarousel,

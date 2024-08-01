@@ -14,7 +14,12 @@ export default {
       name: 'sections',
       title: 'Sections',
       type: 'array',
-      of: [{type: 'gridFeature'}, {type: 'minimalGridFeature'}, {type: 'serviceFeature'}],
+      of: [
+        {type: 'gridFeature'},
+        {type: 'minimalGridFeature'},
+        {type: 'serviceFeature'},
+        {type: 'testimonialFeature'},
+      ],
     },
   ],
   preview: {
