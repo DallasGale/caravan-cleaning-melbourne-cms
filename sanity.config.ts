@@ -25,6 +25,10 @@ const createHomepageStructure = (S) =>
         .child(S.document().schemaType('recentWorkPage').documentId('recentWorkPage')),
 
       S.listItem()
+        .title('Caravan Covers Page')
+        .child(S.document().schemaType('caravanCoversPage').documentId('caravanCoversPage')),
+
+      S.listItem()
         .title('Main Navigation')
         .child(S.document().schemaType('navigation').documentId('navigation')),
 
@@ -39,6 +43,7 @@ const createHomepageStructure = (S) =>
             'homepage',
             'aboutPage',
             'recentWorkPage',
+            'caravanCoversPage',
             'navigation',
             'contactForm',
             'footer',

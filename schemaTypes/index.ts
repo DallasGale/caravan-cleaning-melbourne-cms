@@ -6,6 +6,7 @@ import navigation from './navigation'
 import recentWorkPage from './recentWorkPage'
 import homepage from './homePage'
 import aboutPage from './aboutPage'
+import caravanCoversPage from './caravanCoversPage'
 import gridFeature from './sections/gridFeature'
 import serviceFeature from './sections/serviceFeature'
 import card from './customTypes/card'
@@ -42,4 +43,5 @@ export const schemaTypes = [
   recentWorkPage,
   homepage,
   aboutPage,
+  caravanCoversPage,
 ]
