@@ -26,6 +26,17 @@ export default {
       title: 'Hero',
       validation: (Rule) => Rule.required(),
     }),
+    defineField({
+      name: 'sections',
+      title: 'Sections',
+      type: 'array',
+      of: [
+        {type: 'gridFeature'},
+        {type: 'minimalGridFeature'},
+        {type: 'serviceFeature'},
+        {type: 'testimonialFeature'},
+      ],
+    }),
   ],
   preview: {
     select: {
