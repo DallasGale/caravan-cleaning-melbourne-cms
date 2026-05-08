@@ -20,6 +20,7 @@ import {imageCarousel} from './customTypes/imageCarousel'
 import {mediaCarousel} from './customTypes/mediaCarousel'
 import testimonialFeature from './sections/testimonials'
 import testimonial from './customTypes/testimonial'
+import faq from './sections/faq'
 
 export const schemaTypes = [
   testimonial,
@@ -40,6 +41,7 @@ export const schemaTypes = [
   serviceFeature,
   card,
   homeHero,
+  faq,
   recentWorkPage,
   homepage,
   aboutPage,

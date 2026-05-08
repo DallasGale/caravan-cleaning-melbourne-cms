@@ -35,6 +35,7 @@ export default {
         {type: 'minimalGridFeature'},
         {type: 'serviceFeature'},
         {type: 'testimonialFeature'},
+        {type: 'faq'},
       ],
     }),
   ],
