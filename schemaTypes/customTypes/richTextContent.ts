@@ -5,6 +5,16 @@ export default {
   of: [
     {
       type: 'block',
+      marks: {
+        annotations: [
+          {
+            name: 'link',
+            title: 'Link',
+            type: 'object',
+            fields: [{name: 'href', title: 'URL', type: 'string'}],
+          },
+        ],
+      },
     },
   ],
 }
