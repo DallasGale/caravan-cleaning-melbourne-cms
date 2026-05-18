@@ -38,6 +38,15 @@ export default {
         {type: 'faq'},
       ],
     }),
+    defineField({
+      name: 'waitlist',
+      title: 'Waitlist',
+      type: 'object',
+      fields: [
+        {name: 'title', title: 'Title', type: 'string'},
+        {name: 'paragraph', title: 'Paragraph', type: 'richTextContent'},
+      ],
+    }),
   ],
   preview: {
     select: {
