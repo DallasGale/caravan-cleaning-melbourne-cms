@@ -14,7 +14,7 @@ export default {
       title: 'Cards',
       type: 'array',
       of: [{type: 'card'}],
-      validation: (Rule: any) => Rule.max(4),
+      // validation: (Rule: any) => Rule.min(4),
     },
     {name: 'primaryCta', title: 'Primary CTA', type: 'primaryCta'},
     {name: 'secondaryCta', title: 'Seconary CTA', type: 'secondaryCta'},
